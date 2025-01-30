@@ -1,9 +1,9 @@
 .button {
   box-sizing: border-box;
-  border: 1px solid #00acdc;
+  border: 1px solid $button-color;
   border-radius: 5px;
-  background-color: #00acdc;
-  padding-block: 12px;
+  background-color: $button-color;
+  padding-block: 11px;
 
   font-size: 14px;
   font-weight: 700;
@@ -11,5 +11,5 @@
   line-height: 16px;
   text-align: center;
   text-decoration: none;
-  color: #fff;
+  color: $passive-button-color;
 }
